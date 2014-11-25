@@ -16,12 +16,11 @@ install:
   - npm install -g grunt-cli
   - npm uninstall grunt # https://github.com/npm/npm/issues/3958
 
-
-build: off
-
-
 version: "{build}"
 
 build_script:
   #grunt
   - grunt
+
+  artifacts:
+   - path: wwwroot
