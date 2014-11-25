@@ -1,0 +1,19 @@
+.parallax-slide{
+	padding-left: 25%;
+	padding-right: 25%;
+}
+.parallax h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 55px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+.parallax h3 > span{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 21px;
+    padding: 5px 10px;
+}

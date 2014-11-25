@@ -1,0 +1,52 @@
+{>"layouts/main" /}
+
+{<body}
+<div class="container-fluid ">
+	<div class="row">
+		
+		<article class="col-md-12 text-center intro-03-bg page-bg intro-03 parallax" style="background-image:url({mainImage});">
+      <h6 class="dark font3"> {mainTitle}</h6>
+      <div class="separator2"><img alt="" title="" src="/css/images/separator/02-color.png"/></div>
+      <h2 class="dark font2">{mainSubTitle}</h2>
+		</article>
+
+
+	</div>
+</div>
+
+<div class="container-fluid white-bg">
+
+
+	
+
+	<div class="row add-top add-bottom">
+		
+		<div id="works-container" class="works-container intro-03-wrap white-bg clearfix">
+
+{#projects}
+  <!-- start : works-item -->
+    <div class="works-item works-item-one-third">
+            <img alt="" title="" class="img-responsive" src="{image}"/>
+            <a href="{file}">
+                <div class="works-item-inner valign">
+                  <h3 class="dark">Project Info</h3>
+                  <p class="dark"><span class="dark">{title}</span></p>
+                </div>
+            </a>
+    </div>
+    <!-- end : works-item -->
+{:else}
+  <p>No projects yet</p>
+{/projects}
+
+   
+
+
+
+
+  </div>
+  <!-- end : works-container -->
+
+	</div>
+</div>
+{/body}

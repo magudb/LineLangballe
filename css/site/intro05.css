@@ -1,0 +1,50 @@
+
+/*showcaseS*/
+.showcase-carousel{
+	cursor: url("../images/drag.png") 40 40, crosshair;
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+.showcase-carousel .item{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.showcases-overlay{
+	opacity: 0;
+	-webkit-transition: all 1s ease-in-out;
+	   -moz-transition: all 1s ease-in-out;
+		-ms-transition: all 1s ease-in-out;
+		 -o-transition: all 1s ease-in-out;
+			transition: all 1s ease-in-out;
+}
+.showcase-carousel .item:hover .showcases-overlay{
+	opacity: 1;
+	-webkit-transition: all 1s ease-in-out;
+	   -moz-transition: all 1s ease-in-out;
+		-ms-transition: all 1s ease-in-out;
+		 -o-transition: all 1s ease-in-out;
+			transition: all 1s ease-in-out;
+}
+.showcases-overlay a{
+	cursor: url("../images/view.png") 40 40, crosshair;
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+.showcases-overlay h1{
+}
+.showcases-overlay h1>span{
+	border: solid 4px;
+	padding: 15px 15px 15px 21px;
+	font-size: 24px;
+	line-height: 25px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}

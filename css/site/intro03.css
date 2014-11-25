@@ -1,0 +1,38 @@
+
+.master-logo{
+	width: 60px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.intro-03-bg{
+	
+}
+.intro-03 h6{
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: 200;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.intro-03 h2{
+	font-size: 24px;
+	line-height: 31px;
+	font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin-bottom: 40px;
+}
+
+.mobile-toggle span{
+	background: #444 !important;
+}
+.intro-03-wrap{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.intro-03-wrap .works-item {
+    margin-left: 0.5% !important;
+    margin-right: 0.5% !important;
+    margin-bottom: 1% !important;
+    width: 32.3% !important;
+}

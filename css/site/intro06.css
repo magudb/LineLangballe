@@ -1,0 +1,16 @@
+.intro06-bg{
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.intro06 h1{
+	margin-top: 20px;
+	font-size: 48px;
+	line-height: 55px;
+	font-weight: 200;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}	
+.intro06-overlay{
+	background-color: rgba(0,0,0,0.5);
+}

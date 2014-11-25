@@ -1,0 +1,195 @@
+/*MAIN-BG.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that intializes BG Images used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: EXPOSE.*/
+/* Author: Designova.*/
+/* Website: http://www.designova.net */
+/* Copyright: (C) 2014 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------*/
+/* INTRO / HOME VARIANTS */
+/*--------------------------------------------------------------*/
+/*showcaseS*/
+.showcase-01{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.showcase-02{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.showcase-03{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.showcase-04{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.showcase-05{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.intro09-01{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.intro09-02{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.intro09-03{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.intro09-04{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.intro09-05{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.intro02 .large-header {
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.intro06-bg{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+
+/*INTRO-03 MASONRY HOME*/
+.intro-03-bg{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+
+/*INTRO-04 PARALLAX SHOWCASE*/
+.intro-04-wrap .parallax-slide-01 {
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.intro-04-wrap .parallax-slide-02 {
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.intro-04-wrap .parallax-slide-03 {
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.intro-04-wrap .parallax-slide-04 {
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.intro-04-wrap .parallax-slide-05 {
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+
+
+/*--------------------------------------------------------------*/
+/* PAGES AND SECTIONS */
+/*--------------------------------------------------------------*/
+.about-bg{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.works-bg{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.studio-bg{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.services-bg{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.agency-bg{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.agency-tiles-bg{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.agency-feature-img-bg{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.news-bg{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.news-post-bg{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.pricing-bg{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.contact-bg{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.contact-wallpaper{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.product-bg{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+
+
+/*FEATURED-CAROUSEL*/
+.showcase-carousel-01{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.showcase-carousel-02{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.showcase-carousel-03{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.showcase-carousel-04{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.showcase-carousel-05{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+/*FEATURED-PARALLAX*/
+.featured-parallax .parallax-slide-01 {
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.featured-parallax .parallax-slide-02 {
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.featured-parallax .parallax-slide-03 {
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.featured-parallax .parallax-slide-04 {
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.featured-parallax .parallax-slide-05 {
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+
+/*project-PARALLAX*/
+.project-parallax .parallax-slide-01 {
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.project-parallax .parallax-slide-02 {
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.project-parallax .parallax-slide-03 {
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.project-parallax .parallax-slide-04 {
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.project-parallax .parallax-slide-05 {
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+
+/*SERVICE BLOCKS*/
+.service-bg-01:hover{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.service-bg-02:hover{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.service-bg-03:hover{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.service-bg-04:hover{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.service-bg-05:hover{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+.service-bg-06:hover{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}
+
+/*--------------------------------------------------------------*/
+/* MISC ELEMENTS */
+/*--------------------------------------------------------------*/
+.menu-panel{
+	background-image: url('http://www.placehold.it/1500x1000.jpg');
+}

@@ -1,0 +1,17 @@
+{
+	"template":"templates/index.dust",
+	"output":"index.html",
+	"data":{
+		"mainImage":"/css/images/galore.jpg",
+		"pageTitle":"Line Langballe",
+		"mainTitle":"im a title",
+		"mainSubTitle":"im a title",
+		"projects" :[
+			{
+				"title": "Galore",
+				"image": "/css/images/galore.jpg",
+				"file":"/projects/galore.html"				
+			}
+		]
+	}
+}

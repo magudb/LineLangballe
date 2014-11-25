@@ -1,0 +1,65 @@
+
+/*intro09*/
+.intro09-carousel{
+	cursor: url("../images/drag.png") 40 40, crosshair;
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+.intro09-carousel .item{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.intro09-overlay{
+	opacity: 0;
+	background-color: rgba(255,255,255,0.4);
+	-webkit-transition: all 1s ease-in-out;
+	   -moz-transition: all 1s ease-in-out;
+		-ms-transition: all 1s ease-in-out;
+		 -o-transition: all 1s ease-in-out;
+			transition: all 1s ease-in-out;
+}
+.intro09-carousel .item:hover .intro09-overlay{
+	opacity: 1;
+	-webkit-transition: all 1s ease-in-out;
+	   -moz-transition: all 1s ease-in-out;
+		-ms-transition: all 1s ease-in-out;
+		 -o-transition: all 1s ease-in-out;
+			transition: all 1s ease-in-out;
+}
+.intro09-overlay a{
+	cursor: url("../images/view.png") 40 40, crosshair;
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+.intro09-overlay h1{
+	margin-bottom: 20px;
+}
+.intro09-overlay h1>span{
+	font-size: 28px;
+	line-height: 35px;
+	font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	padding: 8px 13px 8px 18px;
+	border: solid 4px;
+}
+
+.owl-dots{
+	position: absolute;
+	bottom: 10%;
+	text-align: center;
+	width: 100%;
+}
+.owl-theme .owl-dots .owl-dot span{
+	background: #555;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+	background: #fff;
+}

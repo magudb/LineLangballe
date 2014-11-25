@@ -1,0 +1,15 @@
+.parallax-slide{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.parallax h1{
+    font-size: 48px;
+    line-height: 55px;
+    margin-bottom: 0px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.featured-action{
+    margin-top: 20px;
+}
