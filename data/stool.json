@@ -1,6 +1,6 @@
 {
 	"template":"templates/project.dust",
-	"output":"projects/stool.html",
+	"output":"projects/E04.html",
 	"data":{
 		"mainImage":"/css/images/stool.jpg",
 		"category" : "Design", 
