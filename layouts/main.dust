@@ -27,7 +27,7 @@
 </div>
 
 <header class="masthead visible-lg">
-  <a href="index.html"><img class="master-logo" alt="" title="" src="/css/images/logo-dark.png"/></a>
+  <a href="/"><img class="master-logo" alt="" title="" src="/css/images/logo-dark.png"/></a>
 
 
 </header>
