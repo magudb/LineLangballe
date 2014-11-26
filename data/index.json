@@ -4,18 +4,20 @@
 	"data":{
 		"mainImage":"/css/images/galore.jpg",
 		"pageTitle":"Line Langballe",
-		"mainTitle":"im a title",
-		"mainSubTitle":"im a title",
+		"mainTitle":"Line Langballe",
+		"mainSubTitle":"Line is a designer with a master in Interaction design with in the field of HCI.",
 		"projects" :[
 			{
+				"type":"project",
 				"title": "Galore",
 				"image": "/css/images/galore.jpg",
 				"file":"/projects/galore.html"				
 			},
 			{
-				"title": "Galore",
-				"image": "/css/images/galore.jpg",
-				"file":"/projects/galore.html"				
+				"type":"project",
+				"title": "Stool",
+				"image": "/css/images/stool.jpg",
+				"file":"/projects/stool.html"				
 			}
 		]
 	}

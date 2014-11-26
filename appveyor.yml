@@ -17,4 +17,5 @@ build_script:
   - cmd: grunt
 
 artifacts:
-   - path: wwwroot
+   - path: wwwroot/
+     name: myapp
