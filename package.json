@@ -1,12 +1,12 @@
 {
-  "name": "Demo",
+  "name": "LineLangballe homepage",
   "version": "1.0.0",
   "description": "1.0.0",
-  "author": "Magnus Udbjorg Codehouse A/S <mud@codehouse.com>",
+  "author": "Magnus Udbjorg  <magnus@udbjorg.net>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/magudb/LineLangballe.git"
   },
   "devDependencies": {
     "growly": "~1.1.1",

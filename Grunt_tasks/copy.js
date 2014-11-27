@@ -17,6 +17,10 @@ module.exports = function copy(grunt) {
 		    src: 'images/**',
 		    dest: 'wwwroot/css/',
 		  },
+		   webserver: {
+		    src: 'webserver.js',
+		    dest: 'wwwroot/',
+		  },
 		 
 		  css_map: {		   
 		    src: 'css/**',
