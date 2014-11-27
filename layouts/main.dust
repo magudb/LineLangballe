@@ -4,9 +4,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>{pageTitle}</title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
+{+head /}
 <!-- Standard Favicon--> 
 <link rel="shortcut icon" href="images/favicon/favicon.ico">
 <link href="/css/main.min.css" rel="stylesheet">
@@ -27,7 +27,7 @@
 </div>
 
 <header class="masthead visible-lg">
-  <a href="/"><img class="master-logo" alt="" title="" src="/css/images/logo-dark.png"/></a>
+  <a href="/"><img class="master-logo" alt="" title="" src="/css/images/logo-black.png"/></a>
 
 
 </header>
@@ -44,7 +44,7 @@
     
   <div class="valign text-center slogan-holder">
     <div class="nav-logo-wrap">
-      <a href="index.html"><img alt="" title="" src="/css/images/logo-badge-white.png"/></a>
+      <a href="index.html"><img alt="" title="" src="/css/images/logo-transparent.png"/></a>
       <div class="slogan-wrap">
         <h3 class="white font3 slogan-text">Line Langballe</h3>
       </div>
@@ -72,10 +72,10 @@
 
         <div class="copy-credits">
         <ul class="nav-social">
-            <li><a href="#"><img src="/css/images/social/01.svg" title="" alt=""></a></li>
-            <li><a href="#"><img src="/css/images/social/02.svg" title="" alt=""></a></li>
-            <li><a href="#"><img src="/css/images/social/03.svg" title="" alt=""></a></li>
-            <li><a href="#"><img src="/css/images/social/04.svg" title="" alt=""></a></li>
+            <li><a href="{shared.twitterUrl}"><img src="/css/images/social/01.svg" title="" alt=""></a></li>
+            <li><a href="{shared.behanceUrl}"><img src="/css/images/social/04.svg" title="" alt=""></a></li>
+              <li><a href="{shared.linkedinUrl}"><img src="/css/images/social/05.svg" title="" alt=""></a></li>
+      
           </ul>
         </div>
     </div>
@@ -113,17 +113,16 @@
     <div class="row">
         <article class="col-md-5 text-left">
             <ul class="foot-social">
-            <li><a href="#"><img alt="" title="" src="/css/images/social/01.svg"/></a></li>
-            <li><a href="#"><img alt="" title="" src="/css/images/social/02.svg"/></a></li>
-            <li><a href="#"><img alt="" title="" src="/css/images/social/03.svg"/></a></li>
-            <li><a href="#"><img alt="" title="" src="/css/images/social/04.svg"/></a></li>
+           <li><a href="{shared.twitterUrl}"><img src="/css/images/social/01.svg" title="" alt=""></a></li>
+            <li><a href="{shared.behanceUrl}"><img src="/css/images/social/04.svg" title="" alt=""></a></li>
+                  <li><a href="{shared.linkedinUrl}"><img src="/css/images/social/05.svg" title="" alt=""></a></li>
           </ul>
         </article>
         <article class="col-md-6 text-right foot-logo">
           <p class="credits font2 dark">Line Langballe.<br/>Copyright &copy; 2014</p>
         </article>
         <article class="col-md-1 text-right foot-logo">
-          <a href="index.html"><img alt="" title="" src="/css/images/logo-dark.png"/></a>
+          <a href="index.html"><img alt="" title="" src="/css/images/logo-black.png"/></a>
         </article>
     </div>
   </div>
@@ -138,6 +137,15 @@
 
 <!-- Core JS Libraries -->
 <script src="/scripts/main.min.js" type="text/javascript"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-57170956-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>

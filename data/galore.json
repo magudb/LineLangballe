@@ -5,7 +5,9 @@
 		"mainImage":"/css/images/galore.jpg",
 		"category" : "Art & Craft", 
 		"title": "ONE",
+		"shorttext":"ONE is an installation that reflects on the question of the number ONE",
 		"text": "ONE is an installation that reflects on the question of the number ONE. When the piece consists of 528 bright coloured balls can you then call it ONE - or it is hole? When are you a part of a hole - when are you single object",
-		"project-title": "Galore 2011 - One"
+		"project-title": "Galore 2011 - One",
+		"slider":[]
 	}
 }

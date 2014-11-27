@@ -1,4 +1,19 @@
 {>"layouts/main" /}
+{<head}
+<title>{shared.url} - [{category}]{title}</title>
+<meta name="description"  content="{text}">
+
+<meta property="og:title" content="[{category}]{title}">
+<meta property="og:image" content="{shared.url}/{mainImage}">
+<meta property="og:description" content="{text}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="{shared.twitter}">
+<meta name="twitter:creator" content="{shared.twitter}">
+<meta name="twitter:title" content="[{category}]{title}">
+<meta name="twitter:description" content="{shorttext}">
+<meta name="twitter:image:src" content="{shared.url}/{mainImage}">
+{/head}
 {<body}
 <div class="container-fluid">
 	<div class="row">
