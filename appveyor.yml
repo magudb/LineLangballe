@@ -9,7 +9,7 @@ install:
   - ps: Install-Product node $env:nodejs_version
   - npm install
   - npm install -g grunt-cli
-  - npm uninstall grunt # https://github.com/npm/npm/issues/3958
+#  - npm uninstall grunt # https://github.com/npm/npm/issues/3958
 
 version: "{build}"
 
@@ -17,5 +17,8 @@ build_script:
   - cmd: grunt
 
 artifacts:
-   - path: wwwroot/
-     name: myapp
+   - path: wwwroot
+   
+deploy:
+  provider: Environment
+  name: Line Langballe Prod
