@@ -10,7 +10,7 @@ module.exports = function copy(grunt) {
 	  
 		 
 		  scripts: {
-		    src: ['scripts/main.min.js','scripts/main.min.js.map'],
+		    src: ['scripts/main.min.js','scripts/main.min.js.map','scripts/libs/jquery.min.js'],
 		    dest: 'wwwroot/',
 		  },
 		   images: {

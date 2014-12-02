@@ -131,7 +131,18 @@
 
 </footer>
 <!-- Footer : ends -->
-
+<div id="inline-content" style="display:none;">
+       <form action="" method="post" id="mycontactform" >
+        <label for="name">Name:</label><br />
+        <input type="text" name="name" id="name" /><br />
+        <label for="email">Email:</label><br />
+        <input type="text" name="email" id="email" /><br />
+        <label for="message">Message:</label><br />
+        <textarea name="message" id="message"></textarea><br />
+        <input type="button" value="send" id="submit" />
+        <div id="success" style="color:red;"></div>
+        </form>
+</div>
 
 
 
