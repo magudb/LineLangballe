@@ -23,8 +23,12 @@ module.exports = function copy(grunt) {
 		  },
 		 
 		  css_map: {		   
-		    src: 'css/**',
+		     src: ['css/main.min.css','css/main.min.css.map'],
 		    dest: 'wwwroot/',
+		  },
+		  fonts: {		   
+		    src: 'fonts/*.*',
+		    dest: 'wwwroot/css/',
 		  },
 
 

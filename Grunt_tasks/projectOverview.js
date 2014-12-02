@@ -17,7 +17,7 @@ module.exports = function projectOverview(grunt) {
 		for(var i = 0;i<files.length;i++){
 			var file = grunt.file.readJSON(files[i]);
 			grunt.log.writeln(file.template);
-			if(file.template === 'templates/project.dust'){
+			if(file.template === 'templates/project.dust' || file.template === 'templates/sketch.dust'){
 				index.data.projects.push(file);
 			}
 		}

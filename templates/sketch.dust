@@ -59,8 +59,8 @@
 {#projects}
     <!-- start : works-item -->
     <div class="works-item works-item-one-third info ui {@strip str="{data.category}"}{/strip}">
-            <img alt="" title="" class="img-responsive" src="{data.mainImage}"/>
-            <a href="/{output}">
+            <img alt="" title="" class="img-responsive" src="/{data.mainImage}"/>
+            <a href="{output}">
                 <div class="works-item-inner valign">
                   <h3 class="dark">{data.title}</h3>
                   <p class="dark"><span class="dark">{data.category}</span></p>
