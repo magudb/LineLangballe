@@ -30,6 +30,10 @@ module.exports = function copy(grunt) {
 		    src: 'fonts/*.*',
 		    dest: 'wwwroot/css/',
 		  },
+		   php: {		   
+		    src: 'php/*.*',
+		    dest: 'wwwroot/',
+		  },
 
 
 	};
