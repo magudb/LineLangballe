@@ -1,0 +1,136 @@
+{
+  "template": "templates/projectOverview.dust",
+  "output": "projects/index.html",
+  "data": {
+    "projects": [
+      {
+        "template": "templates/project.dust",
+        "output": "projects/galore.html",
+        "data": {
+          "mainImage": "/css/images/galore.jpg",
+          "category": "Art & Craft",
+          "title": "ONE",
+          "shorttext": "ONE is an installation that reflects on the question of the number ONE",
+          "text": "ONE is an installation that reflects on the question of the number ONE. When the piece consists of 528 bright coloured balls can you then call it ONE - or it is hole? When are you a part of a hole - when are you single object",
+          "project-title": "Galore 2011 - One",
+          "sliders": [
+            {
+              "title": "One",
+              "image": "/css/images/galore.jpg"
+            },
+            {
+              "title": "One",
+              "image": "/css/images/galore.jpg"
+            },
+            {
+              "title": "One",
+              "image": "/css/images/galore.jpg"
+            },
+            {
+              "title": "One",
+              "image": "/css/images/galore.jpg"
+            },
+            {
+              "title": "One",
+              "image": "/css/images/galore.jpg"
+            },
+            {
+              "title": "One",
+              "image": "/css/images/galore.jpg"
+            }
+          ],
+          "images": [
+            {
+              "title": "One",
+              "image": "/css/images/galore.jpg"
+            },
+            {
+              "title": "One",
+              "image": "/css/images/galore.jpg"
+            },
+            {
+              "title": "One",
+              "image": "/css/images/galore.jpg"
+            },
+            {
+              "title": "One",
+              "image": "/css/images/galore.jpg"
+            },
+            {
+              "title": "One",
+              "image": "/css/images/galore.jpg"
+            },
+            {
+              "title": "One",
+              "image": "/css/images/galore.jpg"
+            }
+          ]
+        }
+      },
+      {
+        "template": "templates/project.dust",
+        "output": "projects/E04.html",
+        "data": {
+          "mainImage": "/css/images/stool.jpg",
+          "category": "Design",
+          "title": "E04",
+          "shorttext": "Both in form and Construction the designs four elements are joined together in an elegant construction without any use of any other material.",
+          "text": "The designs four elements are joined together in an elegant construction without any use of any other material. It is a clean, sophisticated and clever A design that holds an identity of a graceful and proud diamond.The function is both a stool and a coffee table.",
+          "project-title": "E04 - Both in form and Construction",
+          "sliders": [
+            {
+              "title": "One",
+              "image": "/css/images/stool.jpg"
+            },
+            {
+              "title": "One",
+              "image": "/css/images/galore.jpg"
+            },
+            {
+              "title": "One",
+              "image": "/css/images/stool.jpg"
+            },
+            {
+              "title": "One",
+              "image": "/css/images/galore.jpg"
+            },
+            {
+              "title": "One",
+              "image": "/css/images/stool.jpg"
+            },
+            {
+              "title": "One",
+              "image": "/css/images/galore.jpg"
+            }
+          ],
+          "images": [
+            {
+              "title": "One",
+              "image": "/css/images/galore.jpg"
+            },
+            {
+              "title": "One",
+              "image": "/css/images/stool.jpg"
+            },
+            {
+              "title": "One",
+              "image": "/css/images/galore.jpg"
+            },
+            {
+              "title": "One",
+              "image": "/css/images/stool.jpg"
+            },
+            {
+              "title": "One",
+              "image": "/css/images/galore.jpg"
+            },
+            {
+              "title": "One",
+              "image": "/css/images/stool.jpg"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -7,6 +7,59 @@
 		"title": "E04",
 		"shorttext":"Both in form and Construction the designs four elements are joined together in an elegant construction without any use of any other material.",
 		"text": "The designs four elements are joined together in an elegant construction without any use of any other material. It is a clean, sophisticated and clever A design that holds an identity of a graceful and proud diamond.The function is both a stool and a coffee table.",
-		"project-title": "E04 - Both in form and Construction"
+		"project-title": "E04 - Both in form and Construction",
+		"sliders":[
+			{
+				"title":"One",
+				"image":"/css/images/stool.jpg"
+			},
+			{
+				"title":"One",
+				"image":"/css/images/galore.jpg"
+			},
+			{
+				"title":"One",
+				"image":"/css/images/stool.jpg"
+			},
+			{
+				"title":"One",
+				"image":"/css/images/galore.jpg"
+			},
+			{
+				"title":"One",
+				"image":"/css/images/stool.jpg"
+			},
+			{
+				"title":"One",
+				"image":"/css/images/galore.jpg"
+			}
+		],
+		"images": [
+			{
+				"title":"One",
+				"image":"/css/images/galore.jpg"
+			},
+			{
+				"title":"One",
+				"image":"/css/images/stool.jpg"
+			},
+			{
+				"title":"One",
+				"image":"/css/images/galore.jpg"
+			},
+			{
+				"title":"One",
+				"image":"/css/images/stool.jpg"
+			},
+			{
+				"title":"One",
+				"image":"/css/images/galore.jpg"
+			},
+			{
+				"title":"One",
+				"image":"/css/images/stool.jpg"
+			} 
+		]
+
 	}
 }

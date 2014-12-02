@@ -32,135 +32,58 @@
 </div>
 
 <div class="container">
-
-
-	<div class="row add-top add-bottom">
-		
+	<div class="row add-top add-bottom">		
 		<article class="col-md-12 text-center">
-			
-
-
 			<!-- inner-section:starts -->
-	<section class="inner-section pricing-info">
-		
+			<section class="inner-section pricing-info">
+				<!-- container : starts -->
+				<section class="container">
+					<div class="row">
+						<article class="col-md-10 col-md-offset-1 text-center">
+							<h1 class="super-heading grey font2"><span>{project-title}</span></h1>
+							<div class="separator"><img alt="" title="" src="/css/images/separator/01-white.png"/></div>
+						</article>
+					</div>
+					<div class="row">
+						<article class="col-md-12 text-center">
+							<p>{text}</p>
+						</article>
+					</div>
+					<div class="row add-top-half">
 
-		<!-- container : starts -->
-		<section class="container">
+						<article class="col-md-12 text-center">
+							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+								<!-- Indicators -->
+								<ol class="carousel-indicators">
+									{#sliders}
+									<li data-target="#carousel-example-generic" data-slide-to="{$idx}" class="{@if cond="{$idx} == 0"}active{/if}"></li>					
+									{/sliders}
+								</ol>
 
-			<div class="row">
-			
-				<article class="col-md-10 col-md-offset-1 text-center">
-					<h1 class="super-heading grey font2"><span>{project-title}</span></h1>
-					<div class="separator"><img alt="" title="" src="/css/images/separator/01-white.png"/></div>
+								<!-- Wrapper for slides -->
+								<div class="carousel-inner">
+									{#sliders}
+									<div class="item {@if cond="{$idx} == 0"}active{/if}">
+										<img alt="" title="" src="{image}" />
+									</div>
+									{/sliders}									
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="row add-top-quarter zoom">
+						{#images}
+						<article class="col-md-6">
+							<a  class="venobox" data-gall="portfolio-gallery" href="{image}">
+								<img alt="" title="{title}" class="img-responsive" src="{image}"/>
+							</a>
+						</article>		
+						{/images}
+					</div>
+				</section>
+			</section>
+		</article>
+	</div>
+</div>
 
-				</article>
-				
-			</div>
-			
-			<div class="row">
-
-				<article class="col-md-12 text-center">
-
-				<p>{text}</p>
-				</article>
-
-						
-
-			</div>
-
-
-
-			<div class="row add-top-half">
-
-				<article class="col-md-12 text-center">
-
-					
-
-
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-              </ol>
-
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-                <div class="item active">
-                  <img alt="" title="" src="http://www.placehold.it/1500x1000.jpg" />
-                </div>
-                <div class="item">
-                  <img alt="" title="" src="http://www.placehold.it/1500x1000.jpg" />
-                </div>
-                <div class="item">
-                  <img alt="" title="" src="http://www.placehold.it/1500x1000.jpg" />
-                </div>
-              </div>
-
-              
-            </div>
-
-
-				</article>
-
-						
-
-			</div>
-
-
-
-
-
-
-			<div class="row add-top-quarter zoom">
-
-	          <article class="col-md-6">
-	            <a  class="venobox" data-gall="portfolio-gallery" href="http://www.placehold.it/1500x1000.jpg">
-	              <img alt="" title="" class="img-responsive" src="http://www.placehold.it/1500x1000.jpg"/>
-	            </a>
-	          </article>
-	          <article class="col-md-6">
-	            <a  class="venobox" data-gall="portfolio-gallery" href="http://www.placehold.it/1500x1000.jpg">
-	              <img alt="" title="" class="img-responsive" src="http://www.placehold.it/1500x1000.jpg"/>
-	            </a>
-	          </article>
-
-	        </div>
-
-
-
-
-	        <div class="row add-top-quarter zoom">
-			
-	          <article class="col-md-6">
-	            <a  class="venobox" data-gall="portfolio-gallery" href="http://www.placehold.it/1500x1000.jpg">
-	              <img alt="" title="" class="img-responsive" src="http://www.placehold.it/1500x1000.jpg"/>
-	            </a>
-	          </article>
-	          <article class="col-md-6">
-	            <a  class="venobox" data-gall="portfolio-gallery" href="http://www.placehold.it/1500x1000.jpg">
-	              <img alt="" title="" class="img-responsive" src="http://www.placehold.it/1500x1000.jpg"/>
-	            </a>
-	          </article>
-
-	        </div>
-
-
-
-
-	        <div class="row add-top-quarter zoom">
-			
-	          <article class="col-md-6">
-	            <a  class="venobox" data-gall="portfolio-gallery" href="http://www.placehold.it/1500x1000.jpg">
-	              <img alt="" title="" class="img-responsive" src="http://www.placehold.it/1500x1000.jpg"/>
-	            </a>
-	          </article>
-	          <article class="col-md-6">
-	            <a  class="venobox" data-gall="portfolio-gallery" href="http://www.placehold.it/1500x1000.jpg">
-	              <img alt="" title="" class="img-responsive" src="http://www.placehold.it/1500x1000.jpg"/>
-	            </a>
-	          </article>
-
-	        </div>
 {/body}

@@ -1,0 +1,105 @@
+{>"layouts/main" /}
+{<head}
+<title>{mainTitle}</title>
+<meta name="description"  content="{text}">
+
+<meta property="og:title" content="{mainTitle}">
+<meta property="og:image" content="{shared.url}/{mainImage}">
+<meta property="og:description" content="{mainSubTitle}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="{shared.twitter}">
+<meta name="twitter:creator" content="{shared.twitter}">
+<meta name="twitter:title" content="{mainTitle}">
+<meta name="twitter:description" content="{mainSubTitle}">
+<meta name="twitter:image:src" content="{shared.url}/{mainImage}">
+{/head}
+
+{<body}
+<section class="mastwrap page-top-space">
+
+
+<div class="container-fluid">
+  <div class="row">
+    
+    <article class="col-md-12 text-center works-bg page-bg parallax" style="background-image:url({shared.projectsImage});">
+      <h1 class="main-heading font2 white"><span>My Works</span></h1>
+    </article>
+
+
+  </div>
+</div>
+
+<div class="container">
+
+
+  <div class="row add-top">
+    
+    <article class="col-md-10 col-md-offset-1 text-center">
+      <ul class="works-filter clearfix">
+                        <li><a id="all" href="#" data-filter="*" class="active"><span>All</span></a></li> 
+                        {#projects}                        
+                        <li>
+                          <a href="#" data-filter=".{@strip str="{data.category}"}{/strip}">
+                            <span>{data.category}</span>
+                          </a>
+                        </li>  
+                        {/projects}                     
+                      </ul>
+      <div class="separator"><img alt="" title="" src="/css/images/separator/01-white.png"/></div>
+    </article>
+    
+  </div>
+
+
+  <div class="row add-bottom">
+    
+    <div id="works-container" class="works-container white-bg container clearfix">
+
+{#projects}
+    <!-- start : works-item -->
+    <div class="works-item works-item-one-third info ui {@strip str="{data.category}"}{/strip}">
+            <img alt="" title="" class="img-responsive" src="{data.mainImage}"/>
+            <a href="{output}">
+                <div class="works-item-inner valign">
+                  <h3 class="dark">{data.title}</h3>
+                  <p class="dark"><span class="dark">{data.category}</span></p>
+                </div>
+            </a>
+    </div>
+    <!-- end : works-item -->
+{/projects}
+
+
+
+  </div>
+  <!-- end : works-container -->
+
+  </div>
+</div>
+
+
+
+<section class="call-to-action offwhite-bg">
+  
+<div class="container">
+  <div class="row">
+    
+    <article class="col-md-12 text-center">
+      <h6 class="dark font3">Getting Impressed with me?</h6>
+      <div class="separator2"><img alt="" title="" src="/css/images/separator/02-color.png"/></div>
+      <h2 class="dark font2">Let's work together</h2>
+      <div class="add-bottom-quarter">
+        <a class="btn-expose btn-expose-dark" href="mailto:{shared.email}">Contact me</a>
+      </div>
+    </article>
+
+
+  </div>
+</div>
+
+
+</section>
+
+</section> 
+{/body}
