@@ -90,7 +90,7 @@
       <div class="separator2"><img alt="" title="" src="/css/images/separator/02-color.png"/></div>
       <h2 class="dark font2">Let's work together</h2>
       <div class="add-bottom-quarter">
-        <a class="btn-expose btn-expose-dark venobox" data-title="Contact me"  data-type="inline" href="#inline-content">Contact me</a>
+        <a class="btn-expose btn-expose-dark" data-toggle="modal" data-target="#myModal">Contact me</a>
       </div>
     </article>
 
