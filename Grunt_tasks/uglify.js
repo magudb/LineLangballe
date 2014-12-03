@@ -29,8 +29,7 @@ module.exports = function uglify(grunt) {
                 'scripts/custom/parallax-init.js', 
                 'scripts/custom/carousel-init.js', 
                 'scripts/custom/venobox-init.js',
-                'scripts/custom/isotope-init.js', 
-                'scripts/email.js',
+                'scripts/custom/isotope-init.js',
                 'scripts/custom/main.js'
                   ],
                 
