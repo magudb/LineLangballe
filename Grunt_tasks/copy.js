@@ -8,33 +8,17 @@ module.exports = function copy(grunt) {
 	// Options
 	return {
 	  
-		 
-		  scripts: {
-		    src: ['scripts/main.min.js','scripts/main.min.js.map','scripts/libs/jquery.min.js'],
+		 content: {		   
+		    expand: true,
+		    cwd: 'content/',
+		    src: '**',
 		    dest: 'wwwroot/',
+		    
 		  },
-		   images: {
-		    src: 'images/**',
-		    dest: 'wwwroot/css/',
-		  },
-		   webserver: {
+	   	webserver: {
 		    src: 'webserver.js',
 		    dest: 'wwwroot/',
-		  },
+	  	}	 
 		 
-		  css_map: {		   
-		     src: ['css/main.min.css','css/main.min.css.map'],
-		    dest: 'wwwroot/',
-		  },
-		  fonts: {		   
-		    src: 'fonts/*.*',
-		    dest: 'wwwroot/css/',
-		  },
-		   php: {		   
-		    src: 'php/*.*',
-		    dest: 'wwwroot/',
-		  },
-
-
 	};
 };

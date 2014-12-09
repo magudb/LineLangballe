@@ -46,7 +46,7 @@
                         </li>  
                         {/projects}                     
                       </ul>
-      <div class="separator"><img alt="" title="" src="/css/images/separator/01-white.png"/></div>
+      <div class="separator"><img alt="" title="" src="/images/separator/01-white.png"/></div>
     </article>
     
   </div>
@@ -87,7 +87,7 @@
     
     <article class="col-md-12 text-center">
       <h6 class="dark font3">Getting Impressed with me?</h6>
-      <div class="separator2"><img alt="" title="" src="/css/images/separator/02-color.png"/></div>
+      <div class="separator2"><img alt="" title="" src="/images/separator/02-color.png"/></div>
       <h2 class="dark font2">Let's work together</h2>
       <div class="add-bottom-quarter">
         <a class="btn-expose btn-expose-dark" data-toggle="modal" data-target="#myModal">Contact me</a>

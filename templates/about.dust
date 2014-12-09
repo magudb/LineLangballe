@@ -1,0 +1,61 @@
+<section class="mastwrap page-top-space">
+
+
+<div class="container-fluid">
+	<div class="row">
+		
+		<article class="col-md-12 text-center about-bg page-bg parallax"  style="background-image:url({mainImage});">
+			<h1 class="main-heading font2 white"><span>{headline}</span></h1>
+		</article>
+
+
+	</div>
+</div>
+
+<div class="container">
+
+
+	<div class="row add-top">
+		
+		<article class="col-md-10 col-md-offset-1 text-center">
+			<h1 class="super-heading grey font2"><span>{abstract}</span></h1>
+			<div class="separator"><img alt="" title="" src="/images/separator/01-white.png"/></div>
+
+		</article>
+		
+	</div>
+
+
+	<div class="row add-bottom">
+		
+		<article class="col-md-10 col-md-offset-1 text-center">
+			{about}
+		</article>
+		
+
+	</div>
+</div>
+<section class="call-to-action offwhite-bg">
+	
+<div class="container">
+	<div class="row">
+	  <article class="col-md-12 text-center">
+      <h6 class="dark font3">Getting Impressed with me?</h6>
+      <div class="separator2"><img alt="" title="" src="/images/separator/02-color.png"/></div>
+      <h2 class="dark font2">Let's work together</h2>
+      <div class="add-bottom-quarter">
+        <a class="btn-expose btn-expose-dark" data-toggle="modal" data-target="#myModal">Contact me</a>
+      </div>
+    </article>
+
+
+	</div>
+</div>
+
+
+</section>
+
+
+
+</section> 
+<!-- Master Wrap : ends -->

@@ -21,7 +21,7 @@
 		
 		<article class="col-md-12 text-center intro-03-bg page-bg intro-03 parallax" style="background-image:url({mainImage});">
       <h6 class="dark font3"> {mainTitle}</h6>
-      <div class="separator2"><img alt="" title="" src="/css/images/separator/02-color.png"/></div>
+      <div class="separator2"><img alt="" title="" src="/images/separator/02-color.png"/></div>
       <h2 class="dark font2">{mainSubTitle}</h2>
 		</article>
 

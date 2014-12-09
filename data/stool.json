@@ -2,7 +2,7 @@
 	"template":"templates/project.dust",
 	"output":"projects/E04.html",
 	"data":{
-		"mainImage":"/css/images/stool.jpg",
+		"mainImage":"/images/stool.jpg",
 		"category" : "Design", 
 		"title": "E04",
 		"shorttext":"Both in form and Construction the designs four elements are joined together in an elegant construction without any use of any other material.",
@@ -11,53 +11,53 @@
 		"sliders":[
 			{
 				"title":"One",
-				"image":"/css/images/stool.jpg"
+				"image":"/images/stool.jpg"
 			},
 			{
 				"title":"One",
-				"image":"/css/images/galore.jpg"
+				"image":"/images/galore.jpg"
 			},
 			{
 				"title":"One",
-				"image":"/css/images/stool.jpg"
+				"image":"/images/stool.jpg"
 			},
 			{
 				"title":"One",
-				"image":"/css/images/galore.jpg"
+				"image":"/images/galore.jpg"
 			},
 			{
 				"title":"One",
-				"image":"/css/images/stool.jpg"
+				"image":"/images/stool.jpg"
 			},
 			{
 				"title":"One",
-				"image":"/css/images/galore.jpg"
+				"image":"/images/galore.jpg"
 			}
 		],
 		"images": [
 			{
 				"title":"One",
-				"image":"/css/images/galore.jpg"
+				"image":"/images/galore.jpg"
 			},
 			{
 				"title":"One",
-				"image":"/css/images/stool.jpg"
+				"image":"/images/stool.jpg"
 			},
 			{
 				"title":"One",
-				"image":"/css/images/galore.jpg"
+				"image":"/images/galore.jpg"
 			},
 			{
 				"title":"One",
-				"image":"/css/images/stool.jpg"
+				"image":"/images/stool.jpg"
 			},
 			{
 				"title":"One",
-				"image":"/css/images/galore.jpg"
+				"image":"/images/galore.jpg"
 			},
 			{
 				"title":"One",
-				"image":"/css/images/stool.jpg"
+				"image":"/images/stool.jpg"
 			} 
 		]
 

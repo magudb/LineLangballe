@@ -5,7 +5,7 @@ module.exports = function static_sitebuilder(grunt) {
     // Options
     return {
              static_sitebuilder: {
-                options: {share:'shared/shared.json'},
+                options: {share:'data/shared/shared.json'},
                 files: {
                   'wwwroot': ['data/*.json']
                 }

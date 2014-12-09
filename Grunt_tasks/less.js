@@ -12,10 +12,10 @@ module.exports = function less(grunt) {
 	            cleancss: true,
 	            sourceMap: true,
 	            compress: true,
-	            sourceMapFilename: 'css/main.min.css.map'
+	            sourceMapFilename: 'content/css/main.min.css.map'
 	           },
 	        files: {
-	            "css/main.min.css": "css/main.less"
+	            "content/css/main.min.css": "content/css/main.less"
 	        }
 	    }
 	};

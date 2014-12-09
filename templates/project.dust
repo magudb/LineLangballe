@@ -41,7 +41,7 @@
 					<div class="row">
 						<article class="col-md-10 col-md-offset-1 text-center">
 							<h1 class="super-heading grey font2"><span>{project-title}</span></h1>
-							<div class="separator"><img alt="" title="" src="/css/images/separator/01-white.png"/></div>
+							<div class="separator"><img alt="" title="" src="/images/separator/01-white.png"/></div>
 						</article>
 					</div>
 					<div class="row">
