@@ -30,7 +30,6 @@ module.exports = function uglify(grunt) {
                 'content/scripts/custom/carousel-init.js', 
                 'content/scripts/custom/venobox-init.js',
                 'content/scripts/custom/isotope-init.js', 
-                'content/scripts/email.js',
                 'content/scripts/custom/main.js'
                   ],
                 
