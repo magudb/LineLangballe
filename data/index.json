@@ -2,7 +2,7 @@
 	"template":"templates/index.dust",
 	"output":"index.html",
 	"data":{
-		"mainImage":"/images/galore.jpg",
+		"mainImage":"/images/stool.jpg",
 		"pageTitle":"Line Langballe",
 		"mainTitle":"Line Langballe",
 		"mainSubTitle":"Line is a designer with a master in Interaction design with in the field of HCI.",
@@ -18,7 +18,13 @@
 				"title": "E04",
 				"image": "/images/stool.jpg",
 				"file":"/projects/E04.html"				
-			}
+			},
+			{
+				"type":"project",
+				"title": "Cph cabinet",
+				"image": "/images/Cphcabinet.jpg",
+				"file":"projects/cphcabinet.html"				
+			},
 		]
 	}
 }
