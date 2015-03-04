@@ -7,7 +7,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {+head /}
-  <!-- Standard Favicon--> 
+  <!-- Standard Favicon-->
   <link rel="shortcut icon" href="images/favicon/favicon.ico">
   <link href="/css/main.min.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700,900%7COpen+Sans:400,300,700,800%7CMontserrat:400,700%7CCrimson+Text:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -60,12 +60,17 @@
             <ul class="main-nav-menu main-nav-menu-effect">
 
               <li class="trigger-sub-nav">
-                <a class="main-nav-link" href="/index.html">home</a>               
+                <a class="main-nav-link" href="/index.html">home</a>
               </li>
 
               <li class="trigger-sub-nav">
                 <a class="main-nav-link" href="/projects/index.html">showcase</a>
-              </li>    
+              </li>
+
+                    <li class="trigger-sub-nav">
+                <a class="main-nav-link" href="/about-line-langballe.html">About Line</a>
+              </li>
+
 
             </ul>
           </nav>
@@ -89,11 +94,11 @@
   <nav class="mobile-nav hidden-lg">
     <ul class="slimmenu">
       <li>
-        <a  href="/index.html">home</a>                 
-      </li> 
+        <a  href="/index.html">home</a>
+      </li>
       <li>
-        <a  href="/projects/index.html">showcase</a>                 
-      </li>  
+        <a  href="/projects/index.html">showcase</a>
+      </li>
 
     </ul>
   </nav>
@@ -132,7 +137,7 @@
 
   </footer>
   <!-- Footer : ends -->
-  
+
   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">

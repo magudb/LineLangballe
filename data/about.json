@@ -1,0 +1,11 @@
+{
+  "template":"templates/About.dust",
+  "output":"about-line-langballe.html",
+  "data":{
+    "mainImage":"/images/galore.jpg",
+    "headline" : "Line Langballe",
+    "abstract" : "Line is a designer with a master in Interaction design with in the field of HCI. ",
+    "about" : "Line is a designer with a master in Interaction design with in the field of HCI. "
+
+   }
+}

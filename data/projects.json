@@ -8,7 +8,7 @@
         "output": "projects/galore.html",
         "data": {
           "mainImage": "/images/galore.jpg",
-          "category": "Art & Craft",
+          "category": "Art",
           "title": "ONE",
           "shorttext": "ONE is an installation that reflects on the question of the number ONE",
           "text": "ONE is an installation that reflects on the question of the number ONE. When the piece consists of 528 bright coloured balls can you then call it ONE - or it is hole? When are you a part of a hole - when are you single object",
@@ -17,49 +17,9 @@
             {
               "title": "One",
               "image": "/images/galore.jpg"
-            },
-            {
-              "title": "One",
-              "image": "/images/galore.jpg"
-            },
-            {
-              "title": "One",
-              "image": "/images/galore.jpg"
-            },
-            {
-              "title": "One",
-              "image": "/images/galore.jpg"
-            },
-            {
-              "title": "One",
-              "image": "/images/galore.jpg"
-            },
-            {
-              "title": "One",
-              "image": "/images/galore.jpg"
             }
           ],
           "images": [
-            {
-              "title": "One",
-              "image": "/images/galore.jpg"
-            },
-            {
-              "title": "One",
-              "image": "/images/galore.jpg"
-            },
-            {
-              "title": "One",
-              "image": "/images/galore.jpg"
-            },
-            {
-              "title": "One",
-              "image": "/images/galore.jpg"
-            },
-            {
-              "title": "One",
-              "image": "/images/galore.jpg"
-            },
             {
               "title": "One",
               "image": "/images/galore.jpg"
@@ -71,7 +31,7 @@
         "template": "templates/project.dust",
         "output": "projects/E04.html",
         "data": {
-          "mainImage": "/images/stool.jpg",
+          "mainImage": "/images/E04.jpg",
           "category": "Design",
           "title": "E04",
           "shorttext": "Both in form and Construction the designs four elements are joined together in an elegant construction without any use of any other material.",
@@ -79,54 +39,18 @@
           "project-title": "E04 - Both in form and Construction",
           "sliders": [
             {
-              "title": "One",
-              "image": "/images/stool.jpg"
-            },
-            {
-              "title": "One",
-              "image": "/images/galore.jpg"
-            },
-            {
-              "title": "One",
-              "image": "/images/stool.jpg"
-            },
-            {
-              "title": "One",
-              "image": "/images/galore.jpg"
-            },
-            {
-              "title": "One",
-              "image": "/images/stool.jpg"
-            },
-            {
-              "title": "One",
-              "image": "/images/galore.jpg"
+              "title": "E04",
+              "image": "/images/E04.jpg"
             }
           ],
           "images": [
             {
-              "title": "One",
-              "image": "/images/galore.jpg"
+              "title": "E04",
+              "image": "/images/E04.jpg"
             },
             {
-              "title": "One",
-              "image": "/images/stool.jpg"
-            },
-            {
-              "title": "One",
-              "image": "/images/galore.jpg"
-            },
-            {
-              "title": "One",
-              "image": "/images/stool.jpg"
-            },
-            {
-              "title": "One",
-              "image": "/images/galore.jpg"
-            },
-            {
-              "title": "One",
-              "image": "/images/stool.jpg"
+              "title": "E04",
+              "image": "/images/E04.jpg"
             }
           ]
         }

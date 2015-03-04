@@ -3,7 +3,7 @@
 	"output":"projects/galore.html",
 	"data":{
 		"mainImage":"/images/galore.jpg",
-		"category" : "Art & Craft", 
+		"category" : "Art",
 		"title": "ONE",
 		"shorttext":"ONE is an installation that reflects on the question of the number ONE",
 		"text": "ONE is an installation that reflects on the question of the number ONE. When the piece consists of 528 bright coloured balls can you then call it ONE - or it is hole? When are you a part of a hole - when are you single object",
@@ -12,54 +12,14 @@
 			{
 				"title":"One",
 				"image":"/images/galore.jpg"
-			},
-			{
-				"title":"One",
-				"image":"/images/galore.jpg"
-			},
-			{
-				"title":"One",
-				"image":"/images/galore.jpg"
-			},
-			{
-				"title":"One",
-				"image":"/images/galore.jpg"
-			},
-			{
-				"title":"One",
-				"image":"/images/galore.jpg"
-			},
-			{
-				"title":"One",
-				"image":"/images/galore.jpg"
 			}
+
 		],
 		"images": [
 			{
 				"title":"One",
 				"image":"/images/galore.jpg"
-			},
-			{
-				"title":"One",
-				"image":"/images/galore.jpg"
-			},
-			{
-				"title":"One",
-				"image":"/images/galore.jpg"
-			},
-			{
-				"title":"One",
-				"image":"/images/galore.jpg"
-			},
-			{
-				"title":"One",
-				"image":"/images/galore.jpg"
-			},
-			{
-				"title":"One",
-				"image":"/images/galore.jpg"
 			}
-
 		]
 	}
 }

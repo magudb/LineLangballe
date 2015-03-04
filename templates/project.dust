@@ -17,7 +17,7 @@
 {<body}
 <div class="container-fluid">
 	<div class="row">
-		
+
 		<article class="col-md-12 text-center news-post-bg page-bg parallax fullheight"  style="background-image:url({mainImage});">
 			<div class="valign">
 				<div class="container">
@@ -31,8 +31,8 @@
 	</div>
 </div>
 
-<div class="container">
-	<div class="row add-top add-bottom">		
+<div class="container project">
+	<div class="row add-top add-bottom">
 		<article class="col-md-12 text-center">
 			<!-- inner-section:starts -->
 			<section class="inner-section pricing-info">
@@ -56,7 +56,7 @@
 								<!-- Indicators -->
 								<ol class="carousel-indicators">
 									{#sliders}
-									<li data-target="#carousel-example-generic" data-slide-to="{$idx}" class="{@if cond="{$idx} == 0"}active{/if}"></li>					
+									<li data-target="#carousel-example-generic" data-slide-to="{$idx}" class="{@if cond="{$idx} == 0"}active{/if}"></li>
 									{/sliders}
 								</ol>
 
@@ -66,18 +66,18 @@
 									<div class="item {@if cond="{$idx} == 0"}active{/if}">
 										<img alt="" title="" src="{image}" />
 									</div>
-									{/sliders}									
+									{/sliders}
 								</div>
 							</div>
 						</article>
 					</div>
 					<div class="row add-top-quarter zoom">
 						{#images}
-						<article class="col-md-6">
+						<article class="col-md-6 project-item">
 							<a  class="venobox" data-gall="portfolio-gallery" href="{image}">
 								<img alt="" title="{title}" class="img-responsive" src="{image}"/>
 							</a>
-						</article>		
+						</article>
 						{/images}
 					</div>
 				</section>
