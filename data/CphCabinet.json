@@ -1,0 +1,36 @@
+{
+  "template":"templates/project.dust",
+  "output":"projects/cphcabinet.html",
+  "data":{
+  "mainImage":"/images/cphcabinet.jpg",
+  "category" : "Design",
+  "title": "Cph Cabinet",
+  "shorttext":"Cph cabinet",
+  "text": "Cph cabinet",
+  "project-title": "Cph cabinet",
+  "sliders":[
+    {
+    "title":"One",
+    "image":"/images/galore.jpg"
+    },
+    {
+    "title":"One",
+    "image":"/images/galore.jpg"
+    },
+    {
+    "title":"One",
+    "image":"/images/galore.jpg"
+    }
+  ],
+  "images": [
+    {
+    "title":"One",
+    "image":"/images/galore.jpg"
+    },
+    {
+    "title":"One",
+    "image":"/images/galore.jpg"
+    }
+  ]
+  }
+}
