@@ -17,7 +17,7 @@ build_script:
   - cmd: grunt
 
 artifacts:
-   - path: wwwroot.zip
+   - path: wwwroot
 
 deploy:
   provider: Environment
